@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">gemini</string>
+    <string name="accessibility_service_description">无障碍服务</string>
+    <string name="accessibility_service_label">TV-Gemini"</string>
+    <string name="hint">输入指令</string>
+    <string name="send">发送</string>
+    <string name="suspend_text">bot</string>
+    <string name="about">关于</string>
+    <string name="settings">设置</string>
+    <string name="reset_chat">重置对话</string>
+    <string name="click_to_send">click_to_send</string>
+    <string name="save">保存</string>
+    <string name="chat">对话</string>
+</resources>

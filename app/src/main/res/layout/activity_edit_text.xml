@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorSurface"
+            app:layout_constraintTop_toTopOf="parent"
+            app:menu="@menu/menu_edit"
+            app:titleTextColor="?attr/colorOnSurface" />
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:autofillHints="enter new value"
+            android:gravity="top|start"
+            android:inputType="none"
+            android:scrollbars="vertical"
+            android:theme="@style/MyEditTextStyle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tool_bar" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,48 @@
+[versions]
+agp = "8.5.1"
+generativeai = "0.9.0"
+gsonVersion = "2.11.0"
+kotlin = "2.1.0"
+material = "1.12.0"
+runtime = "1.7.8"
+zephyr = "2.5.2"
+retrofit = "2.11.0"
+datastoreCoreAndroid = "1.1.1"
+lifecycleLivedataCoreKtx = "2.8.7"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+shizuku_api = "13.1.5"
+markwon = "4.6.2"
+
+[libraries]
+androidx-runtime = { module = "androidx.compose.runtime:runtime", version.ref = "runtime" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+generativeai = { module = "com.google.ai.client.generativeai:generativeai", version.ref = "generativeai" }
+google-gson = { module = "com.google.code.gson:gson", version.ref = "gsonVersion" }
+markwon-core = { module = "io.noties.markwon:core", version.ref = "markwon" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+zephyr-extension = { module = "com.github.p1ay1s.Zephyr:extension", version.ref = "zephyr" }
+zephyr-log = { module = "com.github.p1ay1s.Zephyr:log", version.ref = "zephyr" }
+zephyr-net = { module = "com.github.p1ay1s.Zephyr:net", version.ref = "zephyr" }
+zephyr-scaling-layout = { module = "com.github.p1ay1s.Zephyr:scaling-layout", version.ref = "zephyr" }
+zephyr-global-values = { module = "com.github.p1ay1s.Zephyr:global-values", version.ref = "zephyr" }
+zephyr-datastore = { module = "com.github.p1ay1s.Zephyr:datastore", version.ref = "zephyr" }
+zephyr-vbclass = { module = "com.github.p1ay1s.Zephyr:vbclass", version.ref = "zephyr" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+androidx-datastore = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastoreCoreAndroid" }
+androidx-lifecycle-livedata-core-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-core-ktx", version.ref = "lifecycleLivedataCoreKtx" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+shizuku-api = { module = "dev.rikka.shizuku:api", version.ref = "shizuku_api" }
+shizuku-provider = { module = "dev.rikka.shizuku:provider", version.ref = "shizuku_api" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
